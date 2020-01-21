@@ -1,0 +1,8 @@
+How to built the program
+1. make
+2. ./multi-lookup "NUMBER_OF_REQ" "NUMBER_OF_RES" service.txt results.txt input/names*.txt
+3. make clean to purge built files.
+
+for valgrind:
+put 'valgrind' in front of the command above. 
+1. valgrind ./multi-lookup "NUMBER_OF_REQ" "NUMBER_OF_RES" service.txt results.txt input/names*.txt

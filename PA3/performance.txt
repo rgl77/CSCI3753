@@ -1,0 +1,9 @@
+req#        res# 	Runtime in clock_t 	Process
+1	     1		34080			3396: 1 file, 3397: 1 file, 3398: 1 file, 3399: 1 file, 4000: 1 file
+1	     3          36032			4155: 1 file, 4156: 1 file, 4157: 1 file, 4158: 1 file, 4159: 1 file
+3	     1          35904			4350: 1 file, 4351: 1 file, 4352: 1 file, 4353: 1 file, 4354: 1 file
+3	     3 		37596			4488: 1 file, 4489: 1 file, 4490: 1 file, 4491: 1 file, 4492: 1 file
+5 	     5          37019			4714: 1 file, 4715: 1 file, 4716: 1 file, 4717: 1 file, 4718: 1 file
+8	     5 	        Seg fault		......................................................................
+
+No memory leak for each of them.
